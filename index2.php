@@ -16,4 +16,4 @@ $html2pdf->writeHTML($html);
 
 /*output(nombreArchivo, segundoArgumento)
 segundoArgumento 'I' muestra por el navegador */
-$html2pdf->Output('pdf_creado.pdf');
+$html2pdf->Output(__DIR__. '/'.'pdf_creado.pdf','F');
